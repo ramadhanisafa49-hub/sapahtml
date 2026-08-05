@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>TokoKu - Belanja Online</title>
+<style>
+  :root {
+    --biru-utama: #1976D2; 
+    --biru-muda: #42A5F5;  
+    --biru-bg: #E3F2FD;    
+    --oranye: #FF5722;
+  }
+  body { font-family: 'Segoe UI', Arial; margin: 0; background: var(--biru-bg); color: #333; }
+  
+  /* HEADER PELANGGAN */
+  .header { background: white; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+  .logo { font-size: 24px; font-weight: bold; color: var(--biru-utama); }
+  .search-bar { flex: 1; margin: 0 20px; }
